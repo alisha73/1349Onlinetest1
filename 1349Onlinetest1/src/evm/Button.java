@@ -2,8 +2,12 @@ package evm;
 
 public abstract class Button {
 
+int buttonState;
 	public Button() {
-	// TODO Auto-generated constructor stub 
+		buttonState=0;
 	}
+	
+	public abstract int buttonPressed();
+	
 
 }
