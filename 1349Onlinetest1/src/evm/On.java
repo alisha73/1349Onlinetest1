@@ -4,7 +4,7 @@ public class On  extends Lamp{
 
 	public On() {
 		// TODO Auto-generated constructor stub
-	}
+	} 
 
 	@Override
 	public void changeLampState() {

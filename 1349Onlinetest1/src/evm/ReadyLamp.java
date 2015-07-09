@@ -19,6 +19,6 @@ public class ReadyLamp extends Lamp{
 			System.out.println("Lamp is not ready");
 		}
 		
-	}
+	} 
 
 }

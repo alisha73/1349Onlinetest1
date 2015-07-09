@@ -3,7 +3,7 @@ package evm;
 public class BusyLamp extends Lamp{
 
 	public BusyLamp() {
-		// TODO Auto-generated constructor stub
+		 // TODO Auto-generated constructor stub
 	}
 
 	@Override

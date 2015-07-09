@@ -3,7 +3,7 @@ package evm;
 public class CandidateLamp extends Lamp{
 
 	public CandidateLamp() {
-		// TODO Auto-generated constructor stub
+	// TODO Auto-generated constructor stub
 	}
 
 	@Override
