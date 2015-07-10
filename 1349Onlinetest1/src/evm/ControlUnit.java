@@ -3,13 +3,13 @@ package evm;
 public class ControlUnit {
 	Button totalButton;
 	Button ballotButton;
-	On onLamp;
-	ReadyLamp readyLamp;
+	public Lamp onLamp;
+public Lamp readyLamp;
 	
 	
-	public ControlUnit(Button totalButton,Button ballotButton) {
-		this.totalButton=totalButton;
-		this.ballotButton=ballotButton;
+	public ControlUnit() {
+		this.totalButton=new TotalButton();
+		this.ballotButton=new BallotButton();
 		this.onLamp=new On();
 		this.readyLamp=new ReadyLamp();
 	}

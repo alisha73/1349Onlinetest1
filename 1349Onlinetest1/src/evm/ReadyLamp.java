@@ -11,12 +11,12 @@ public class ReadyLamp extends Lamp{
 		if(Lamp==0){
 			Lamp=1;
 			
-			System.out.println("Lamp is ready");
+			System.out.println("Ready Lamp is on");
 		}
 		else
 		{
 			Lamp=0;
-			System.out.println("Lamp is not ready");
+			System.out.println("Ready Lamp is off");
 		}
 		
 	} 
